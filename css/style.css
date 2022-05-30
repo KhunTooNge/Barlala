@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Press+Start+2P&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-image: url(./../image/pizza-g89aa51590_1920.jpg);
+    width: 100%;
+    min-height: 85vh;
+    background-size: cover;
+}
+
+.para_parent {
+    position: relative;
+}
+
+div .para::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 270px;
+    position: absolute;
+    background-color: rgba(245, 222, 179, 0.437);
+    z-index: 99;
+    left: -30px;
+    top: 13px;
+}
+
+.card:hover {
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: -20px 20px 60px #696464, 20px -20px 60px #ffffff;
+}
+
+i.fa-brands:hover {
+    color: rgb(12, 203, 228);
+}
